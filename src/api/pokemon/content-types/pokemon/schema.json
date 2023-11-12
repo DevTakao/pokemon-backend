@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pokemons",
+  "info": {
+    "singularName": "pokemon",
+    "pluralName": "pokemons",
+    "displayName": "Pokemon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "fire",
+        "water",
+        "grass",
+        "poison",
+        "flying",
+        "normal",
+        "fighting",
+        "ghost",
+        "electric",
+        "ground",
+        "rock"
+      ],
+      "required": true
+    }
+  }
+}
